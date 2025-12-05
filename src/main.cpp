@@ -53,6 +53,7 @@ void loop() {
   if (contador == 2){
     printNutellaImage(display);
     contador = 0;
+    delay(2000);
   }
 
   contador ++;
@@ -90,3 +91,4 @@ void loop() {
 
   delay(2000);
 }
+  
